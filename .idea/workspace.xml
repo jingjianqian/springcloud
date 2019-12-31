@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springcloud-eureka-server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a71c0361-661d-4dca-970d-bcc366dcdf64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jokerTest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jokerTest/src/main/java/com/joker/EurekaClient1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jokerTest/src/main/java/com/joker/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jokerTest/src/main/resources/applicaiton.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/java/com/joker/systemmodule/eruka/ErukaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/java/com/joker/systemmodule/eruka/ErukaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/java/com/joker/systemmodule/eruka/EurekaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/java/com/joker/systemmodule/eruka/EurekaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/system-manager/eurekaServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-server/src/main/source/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-eureka-client2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-eureka-server/src/main/source" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6049793" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ErukaApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerDemo001">
     <configuration name="ErukaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.systemmodule.eruka.ErukaApplication" />
@@ -102,7 +100,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606441336027</updated>
-      <workItem from="1606441337181" duration="773000" />
+      <workItem from="1606441337181" duration="1372000" />
+      <workItem from="1606473925919" duration="1294000" />
+      <workItem from="1606783981761" duration="2065000" />
     </task>
     <servers />
   </component>
@@ -114,57 +114,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="95" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606441338715" />
-    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606441663748">
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606784858604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606441663748" />
-    <state x="636" y="262" width="927" height="515" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606441653173">
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606784858604" />
+    <state x="636" y="262" width="927" height="515" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606784976845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="262" width="927" height="515" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606441653173" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1606441446862">
+    <state x="636" y="262" width="927" height="515" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606784976845" />
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1606784991547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606441446862" />
-    <state width="1867" height="684" key="GridCell.Tab.0.bottom" timestamp="1606441742792">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606784991547" />
+    <state width="1867" height="515" key="GridCell.Tab.0.bottom" timestamp="1606784755902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.0.center" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755902" />
+    <state width="1867" height="515" key="GridCell.Tab.0.center" timestamp="1606784755902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.0.left" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755902" />
+    <state width="1867" height="515" key="GridCell.Tab.0.left" timestamp="1606784755902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.0.right" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755902" />
+    <state width="1867" height="515" key="GridCell.Tab.0.right" timestamp="1606784755902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.1.bottom" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755902" />
+    <state width="1867" height="515" key="GridCell.Tab.1.bottom" timestamp="1606784755903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.1.center" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755903" />
+    <state width="1867" height="515" key="GridCell.Tab.1.center" timestamp="1606784755903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.1.left" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755903" />
+    <state width="1867" height="515" key="GridCell.Tab.1.left" timestamp="1606784755903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
-    <state width="1867" height="684" key="GridCell.Tab.1.right" timestamp="1606441742792">
+    <state width="1867" height="515" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755903" />
+    <state width="1867" height="515" key="GridCell.Tab.1.right" timestamp="1606784755903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="684" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606441742792" />
+    <state width="1867" height="515" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606784755903" />
     <state x="565" y="150" key="NewModule_or_Project.wizard" timestamp="1606441448102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="150" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606441448102" />
-    <state x="345" y="0" key="SettingsEditor" timestamp="1606441449443">
+    <state x="345" y="0" key="SettingsEditor" timestamp="1606784995154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606441449443" />
+    <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606784995154" />
+    <state x="566" y="53" key="new project wizard" timestamp="1606784205165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="53" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606784205165" />
   </component>
 </project>
