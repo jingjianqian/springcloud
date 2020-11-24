@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03e62d5b-79bb-4344-9a19-8c9f949d5327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/src/main/java/com/joker/systemmodule/eruka/eruka/ErukaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/eureka/src/test/java/com/joker/systemmodule/eruka/eruka/ErukaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemmodule/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joker/springcloud/ErukaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemmodule/src/main/java/com/system/systemmodule/SystemmoduleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joker/springcloud/eruka/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joker/springcloud/eruka/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemmodule/src/test/java/com/system/systemmodule/SystemmoduleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/eurekaTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/eurekaTest/src/main/java/com/joker/systemmodule/eruka/ErukaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/eurekaTest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/eurekaTest/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/eurekaTest/src/test/java/com/joker/systemmodule/eruka/eruka/ErukaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemmodule/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,33 +47,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/systemmodule/eureka" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/eurekaTest/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6049793" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Unnamed">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.joker.systemmodule.eruka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my\code\java\springCloud\test\eurekaTest\src\main\resources" />
+      <recent name="D:\my\code\java\springCloud\test\eurekaTest" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="ErukaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.systemmodule.eruka.eruka.ErukaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.systemmodule.eruka.ErukaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.Unnamed" />
-      <item itemvalue="Spring Boot.ErukaApplication" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606221843930</updated>
       <workItem from="1606221846199" duration="2049000" />
-      <workItem from="1606223910303" duration="206000" />
+      <workItem from="1606223910303" duration="1588000" />
     </task>
     <servers />
   </component>
@@ -102,33 +103,88 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606222633565">
+    <state x="452" y="95" key="#Project_Structure" timestamp="1606224482341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606222633565" />
+    <state x="452" y="95" key="#Project_Structure/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606224482341" />
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606225226914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225226914" />
     <state x="652" y="322" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606223885093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="322" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606223885093" />
-    <state x="636" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606222631719">
+    <state x="627" y="250" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606225157611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606222631719" />
-    <state x="657" y="140" key="FileChooserDialogImpl" timestamp="1606223817532">
+    <state x="627" y="250" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225157611" />
+    <state x="636" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606225222857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="140" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606223817532" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1606223867126">
+    <state x="636" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225222857" />
+    <state x="707" y="354" width="697" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606225158838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606223867126" />
-    <state x="475" y="196" width="1048" height="696" key="new project wizard" timestamp="1606222753052">
+    <state x="707" y="354" width="697" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225158838" />
+    <state x="657" y="140" key="FileChooserDialogImpl" timestamp="1606224580864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="196" width="1048" height="696" key="new project wizard/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606222753052" />
+    <state x="657" y="140" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606224580864" />
+    <state width="1867" height="141" key="GridCell.Tab.0.bottom" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.0.center" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.0.left" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.0.right" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.1.bottom" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.1.center" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.1.left" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state width="1867" height="141" key="GridCell.Tab.1.right" timestamp="1606225467244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="141" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225467244" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1606225346019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606225346019" />
+    <state x="475" y="196" width="1048" height="696" key="new project wizard" timestamp="1606224805584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="475" y="196" width="1048" height="696" key="new project wizard/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606224805584" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1606222654017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1606222654017" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/systemmodule/src/main/java/com/system/systemmodule/SystemmoduleApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
