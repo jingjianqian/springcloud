@@ -4,13 +4,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/systemmodule/eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
-        <option value="$PROJECT_DIR$/test/eurekaTest/pom.xml" />
+        <option value="$PROJECT_DIR$/system-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/jokerTest/pom.xml" />
+        <option value="$PROJECT_DIR$/system-manager/config/pom.xml" />
+        <option value="$PROJECT_DIR$/system-manager/zuul/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/systemmodule/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
