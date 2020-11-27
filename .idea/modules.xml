@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/system-manager/config/config.iml" filepath="$PROJECT_DIR$/system-manager/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/system-manager/eurekaServer/eureka.iml" filepath="$PROJECT_DIR$/system-manager/eurekaServer/eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jokerTest/jokerTest.iml" filepath="$PROJECT_DIR$/jokerTest/jokerTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-client/springcloud-eureka-client.iml" filepath="$PROJECT_DIR$/springcloud-eureka-client/springcloud-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-client2/springcloud-eureka-client2.iml" filepath="$PROJECT_DIR$/springcloud-eureka-client2/springcloud-eureka-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/system-manager/sysmanager.iml" filepath="$PROJECT_DIR$/system-manager/sysmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/system-manager/zuul/zuul.iml" filepath="$PROJECT_DIR$/system-manager/zuul/zuul.iml" />
     </modules>
