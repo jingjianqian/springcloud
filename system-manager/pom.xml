@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -10,7 +11,7 @@
     <groupId>com.joker.test</groupId>
     <artifactId>sysmanager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>test</name>
+    <name>sysmanager</name>
     <description>test</description>
 
     <properties>
@@ -21,6 +22,7 @@
         <module>eurekaServer</module>
         <module>config</module>
         <module>zuul</module>
+        <module>service-auth</module>
     </modules>
 
     <!--依赖管理，用于管理spring-cloud的依赖 -->

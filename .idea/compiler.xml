@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul" />
+        <module name="service-auth" />
         <module name="springcloud-eureka-server" />
-        <module name="config" />
         <module name="eureka" />
         <module name="springcloud-eureka-client2" />
         <module name="springcloud-eureka-client" />
-        <module name="sysmanager" />
+        <module name="config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="service-auth" target="1.8" />
       <module name="springcloud-eureka-client" target="1.8" />
       <module name="springcloud-eureka-client2" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
@@ -29,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="service-auth" options="-parameters" />
       <module name="springcloud-eureka-client" options="-parameters" />
       <module name="springcloud-eureka-client2" options="-parameters" />
       <module name="springcloud-eureka-server" options="-parameters" />
