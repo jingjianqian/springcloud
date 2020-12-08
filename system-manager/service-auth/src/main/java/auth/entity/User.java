@@ -6,7 +6,7 @@ import org.apache.ibatis.type.Alias;
 import javax.persistence.Table;
 
 @Alias(value = "user")
-@Table
+@Table(name = "sys_user")
 public class User {
     private int id;
     private String username;

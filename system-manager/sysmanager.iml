@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:2.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-loggin:unknown" level="project" />
   </component>
 </module>

@@ -6,14 +6,13 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Repository
 @Mapper
 public interface UserMapper {
 
-    @Select("select password  from user where username = #{username}")
+    @Select("select password  from sys_user where username = #{username}")
     String getUser(String username);
 
 
